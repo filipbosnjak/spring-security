@@ -18,7 +18,7 @@ public class HelloController {
                 .body("hello");
     }
 
-    @GetMapping("/admin")
+    @GetMapping("/hello-admin")
     public ResponseEntity<String> admin() {
 
         HttpHeaders responseHeaders = new HttpHeaders();
