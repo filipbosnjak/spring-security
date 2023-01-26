@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @GetMapping
+    @GetMapping("/hello")
     public ResponseEntity<String> hello() {
         HttpHeaders responseHeaders = new HttpHeaders();
         responseHeaders.add("asdf", "asdf");
